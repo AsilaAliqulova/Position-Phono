@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  padding: 30px;
+}
+.main_wrapper {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  margin: 0px auto;
+  /* padding: 15px; */
+  background-color: antiquewhite;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: red;
+}
+
+.red {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.green {
+  position: absolute;
+  left: 560px;
+  top: 20px;
+  background-color: green;
+}
+
+.blue {
+  position: absolute;
+  top: 560px;
+  left: 20px;
+  background-color: blue;
+}
+
+.purple {
+  position: absolute;
+  top: 560px;
+  left: 560px;
+  background-color: purple;
+}
+
+.footer {
+  position: absolute;
+  left: 290px;
+  top: 290px;
+  background-color: grey;
+}
